@@ -1,0 +1,101 @@
+.tab{
+    border: 2px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+.head{
+    opacity: 1;
+    animation: fade 2s linear;
+    animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+    }
+
+    .desc{
+        /* animation: ; */
+    animation: fade 2s linear;
+        background-color: whitesmoke;
+        animation-name: desc;
+        animation-iteration-count: infinite;
+        border-radius: 5px;
+    }
+
+
+    @keyframes desc{
+        0% {background-color: white;}
+        20% {background-color: aqua;}
+        40% {background-color: beige;}
+        60% {background-color: honeydew;}
+        80% {background-color: rgb(187, 148, 187);}
+        100% {background-color: snow;}
+    }
+
+
+    .sec_tr:hover{
+       
+        background-color: rgb(160, 204, 205);
+    }
+
+    .fir_tr:hover{
+        
+        background-color: thistle;
+    }
+
+    .menu{
+        animation: fade 2s linear;
+       color: rgb(25, 23, 23);
+       /* background-color: deepskyblue; */
+        animation-name: menu;
+        animation-iteration-count: infinite;
+      
+    }
+
+
+    @keyframes menu{
+        0% {color: rgb(241, 106, 106);}
+        20% {color: rgb(213, 148, 213);}
+        40% {color: beige;}
+        60% {color: rgb(233, 166, 42);}
+        80% {color: rgb(187, 148, 187);}
+        100% {color: rgb(36, 237, 217);}
+    }
+
+    .disc{
+        color: red;
+    }
+
+    marquee{
+        background-color: rgb(184, 195, 194);
+        border-radius: 5px;
+    }
+
+    .img1:hover{
+        transform: scale(1.3);
+        transition-duration: 3s;
+    }
+
+    .img2:hover{
+        
+        transform: rotate(360deg);
+        transition-duration: 6s;
+    }
+
+    .img3:hover{
+       
+        transform: rotateX(360deg);
+        transition-duration: 6s;
+    }
+
+    .img4:hover{
+      
+        transform: rotateY(360deg);
+        transition-duration: 6s;
+    }
+    
+
